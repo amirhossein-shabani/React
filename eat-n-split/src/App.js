@@ -265,3 +265,5 @@ function FormSplitBill({ selectedFriend, onSplitBill }) {
     </form>
   );
 }
+
+// Finish part-1 React-course .
