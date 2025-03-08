@@ -57,10 +57,10 @@ export default function App() {
 
         setError("");
       } catch (err) {
+        if (err.name !== "AbortError") return;
         if (
           err.message === "Movie not found" ||
-          (err.message === "Something went wrong with fetching movies" &&
-            err.name !== "AbortError")
+          err.message === "Something went wrong with fetching movies"
         ) {
           setError(err.message);
           console.log(err.message);
