@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div {
+  margin: 30px 30px;
+}
+p {
+  font-size: 28px;
+  font-family: Arial;
+  color: #333;
+}
+
+button {
+  font-size: 28px;
+  padding: 10px 14px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(00, 0, 0, 0.2);
+  transition: transform 0.3s, color 0.3s;
+  color: #333;
+}
+
+button:hover {
+  transform: scale(1.05);
+  color: #222;
+}
+
+a {
+  margin-left: 10px;
+  box-shadow: 0 0 10px rgba(00, 0, 0, 0.2);
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: red;
+}
